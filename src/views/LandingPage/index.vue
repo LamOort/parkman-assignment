@@ -1,10 +1,10 @@
 <template>
-  <main style="width: 100vw">
+  <main style="width: 100%">
     <Header />
     <div class="pkmn-landing-page-content">
       <HeroSection />
-
       <HeroGradient />
+      <MobileDownload />
     </div>
   </main>
 </template>
@@ -12,6 +12,7 @@
 <script>
 import Header from "../../components/Header";
 import HeroGradient from "./HeroGradient";
+import MobileDownload from "./MobileDownload";
 import HeroSection from "./HeroSection";
 
 export default {
@@ -19,6 +20,7 @@ export default {
     Header,
     HeroSection,
     HeroGradient,
+    MobileDownload,
   },
 };
 </script>
