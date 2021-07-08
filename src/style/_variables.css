@@ -1,0 +1,48 @@
+:root {
+  /*!* #COLOR-SCHEME *!*/
+  --green: #37bd00;
+  --dark: #333333;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #f0f0f0;
+  --dark-grey: #e5e5e5;
+
+  --pkmn-primary-color: var(--green);
+  --pkmn-text-color: var(--dark);
+  --pkmn-light-background: var(--grey);
+
+  /*!* SIZES *!*/
+  --page-container-max-content-width: 1190px;
+
+  /*!* #TYPOGRAPHY *!*/
+  --pkmn-font-family: Roboto, Helvetica, sans-serif;
+  --pkmn-font-size-base: 10px;
+
+  --pkmn-font-weight-bold: 700;
+  --pkmn-font-weight-medium: 500;
+  --pkmn-font-weight-regular: 400;
+
+  /* Hero title */
+  --pkmn-hero-font-size-sm: calc(var(--pkmn-font-size-base) * 2.6);
+  --pkmn-hero-font-size-md: calc(var(--pkmn-font-size-base) * 2.6);
+  --pkmn-hero-font-size-lg: calc(var(--pkmn-font-size-base) * 4);
+
+  --pkmn-hero-font-weight: var(--pkmn-font-weight-bold);
+  --pkmn-hero-text-color: var(--pkmn-text-color);
+
+  --pkmn-hero-line-height-sm: calc(var(--pkmn-font-size-base) * 3.1);
+  --pkmn-hero-line-height-md: calc(var(--pkmn-font-size-base) * 3.1);
+  --pkmn-hero-line-height-lg: calc(var(--pkmn-font-size-base) * 4.8);
+
+  /* Body text */
+  --pkmn-body-text-font-weight: var(--pkmn-font-weight-regular);
+
+  --pkmn-body-text-font-size: calc(var(--pkmn-font-size-base) * 1.8);
+  --pkmn-body-text-line-height: calc(var(--pkmn-font-size-base) 2.7);
+
+  /* Small text */
+  --pkmn-small-text-font-weight: var(--pkmn-font-weight-regular);
+
+  --pkmn-small-text-font-size: calc(var(--pkmn-font-size-base) * 1.6);
+  --pkmn-small-text-line-height: calc(var(--pkmn-font-size-base) 2.2);
+}
