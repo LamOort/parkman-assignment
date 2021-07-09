@@ -34,6 +34,19 @@
   --pkmn-hero-line-height-md: calc(var(--pkmn-font-size-base) * 3.1);
   --pkmn-hero-line-height-lg: calc(var(--pkmn-font-size-base) * 4.8);
 
+  /* Body title */
+
+  --pkmn-body-title-font-size-sm: calc(var(--pkmn-font-size-base) * 1.8);
+  --pkmn-body-title-font-size-md: calc(var(--pkmn-font-size-base) * 1.8);
+  --pkmn-body-title-font-size-lg: calc(var(--pkmn-font-size-base) * 2.4);
+
+  --pkmn-body-title-font-weight: var(--pkmn-font-weight-bold);
+  --pkmn-body-title-text-color: var(--pkmn-text-color);
+
+  --pkmn-body-title-line-height-sm: calc(var(--pkmn-font-size-base) * 2.1);
+  --pkmn-body-title-line-height-md: calc(var(--pkmn-font-size-base) * 2.1);
+  --pkmn-body-title-line-height-lg: calc(var(--pkmn-font-size-base) * 2.88);
+
   /* Body text */
   --pkmn-body-text-font-weight: var(--pkmn-font-weight-regular);
 

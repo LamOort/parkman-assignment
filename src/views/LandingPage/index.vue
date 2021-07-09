@@ -5,6 +5,8 @@
       <HeroSection />
       <HeroGradient />
       <MobileDownload />
+
+      <UsageSection />
     </div>
   </main>
 </template>
@@ -14,6 +16,7 @@ import Header from "../../components/Header";
 import HeroGradient from "./HeroGradient";
 import MobileDownload from "./MobileDownload";
 import HeroSection from "./HeroSection";
+import UsageSection from "./UsageSection";
 
 export default {
   components: {
@@ -21,6 +24,7 @@ export default {
     HeroSection,
     HeroGradient,
     MobileDownload,
+    UsageSection,
   },
 };
 </script>

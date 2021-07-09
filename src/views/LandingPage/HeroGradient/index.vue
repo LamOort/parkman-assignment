@@ -10,10 +10,10 @@ export default {};
 
 <style lang="scss" scoped>
 .pkmn-hero-gradient {
-  position: relative;
+  position: absolute;
   width: 100%;
 
-  margin-top: -37%;
+  margin-top: -35%;
 
   z-index: 0;
 
