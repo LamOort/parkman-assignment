@@ -1,8 +1,9 @@
-import { createStore } from "vuex";
+import { createStore, createLogger } from "vuex";
+import review from "./modules/review";
 
 export default createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: {
+    review,
+  },
+  plugins: [createLogger()],
 });

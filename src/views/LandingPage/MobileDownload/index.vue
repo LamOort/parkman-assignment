@@ -11,6 +11,15 @@
           <p class="pkmn-download-mobile__info--desc">
             Parking for car drivers
           </p>
+
+          <StarRating
+            :rating="4.5"
+            :round-start-rating="false"
+            :show-rating="false"
+            :read-only="true"
+            :star-size="10"
+            :padding="2"
+          />
         </div>
       </div>
 
@@ -20,7 +29,13 @@
 </template>
 
 <script>
-export default {};
+import StarRating from "vue-star-rating";
+
+export default {
+  components: {
+    StarRating,
+  },
+};
 </script>
 
 <style lang="scss" scoped>

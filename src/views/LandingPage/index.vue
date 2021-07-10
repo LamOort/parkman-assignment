@@ -7,6 +7,7 @@
       <MobileDownload />
 
       <UsageSection />
+      <TestimonialSection />
     </div>
   </main>
 </template>
@@ -17,6 +18,7 @@ import HeroGradient from "./HeroGradient";
 import MobileDownload from "./MobileDownload";
 import HeroSection from "./HeroSection";
 import UsageSection from "./UsageSection";
+import TestimonialSection from "./TestimonialSection";
 
 export default {
   components: {
@@ -25,6 +27,7 @@ export default {
     HeroGradient,
     MobileDownload,
     UsageSection,
+    TestimonialSection,
   },
 };
 </script>

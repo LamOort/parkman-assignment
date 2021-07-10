@@ -34,6 +34,17 @@
   --pkmn-hero-line-height-md: calc(var(--pkmn-font-size-base) * 3.1);
   --pkmn-hero-line-height-lg: calc(var(--pkmn-font-size-base) * 4.8);
 
+  /* H1 */
+  --pkmn-h1-font-size-sm: calc(var(--pkmn-font-size-base) * 2.2);
+  --pkmn-h1-font-size-md: calc(var(--pkmn-font-size-base) * 2.2);
+  --pkmn-h1-font-size-lg: calc(var(--pkmn-font-size-base) * 3.2);
+
+  --pkmn-h1-font-weight: var(--pkmn-font-weight-bold);
+
+  --pkmn-h1-line-height-sm: calc(var(--pkmn-font-size-base) * 2.6);
+  --pkmn-h1-line-height-md: calc(var(--pkmn-font-size-base) * 2.6);
+  --pkmn-h1-line-height-lg: calc(var(--pkmn-font-size-base) * 3.8);
+
   /* Body title */
 
   --pkmn-body-title-font-size-sm: calc(var(--pkmn-font-size-base) * 1.8);
