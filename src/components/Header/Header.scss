@@ -34,7 +34,7 @@
     padding-right: 80px;
 
     max-width: var(--page-container-max-content-width);
-    margin: 0 auto; //trick of centering the content inside
+    margin: 0 auto;
 
     z-index: 10;
 
@@ -96,6 +96,7 @@
     }
 
     &--icon {
+      display: block;
       height: 24px;
       width: 24px;
       fill: inherit;

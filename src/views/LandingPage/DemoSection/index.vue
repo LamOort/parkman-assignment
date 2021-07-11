@@ -25,7 +25,7 @@
             >
               <img
                 src="../../../assets/video-thumbnail.jpg"
-                style="width: 100%"
+                style="width: 100%; border-radius: 4px"
               />
             </div>
 
@@ -88,7 +88,7 @@ export default {
   position: relative;
   width: 100%;
 
-  padding-top: 56.25%; // 16/9;
+  padding-top: 56.25%; // 16 by 9;
 }
 
 .modal-media {

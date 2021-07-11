@@ -12,12 +12,16 @@
       <PricingSection />
       <DemoSection />
       <ContactSection />
+
+      <Footer />
     </div>
   </main>
 </template>
 
 <script>
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
 import HeroGradient from "./HeroGradient";
 import MobileDownload from "./MobileDownload";
 import HeroSection from "./HeroSection";
@@ -38,6 +42,7 @@ export default {
     PricingSection,
     DemoSection,
     ContactSection,
+    Footer,
   },
 };
 </script>
