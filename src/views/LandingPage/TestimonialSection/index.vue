@@ -85,8 +85,12 @@ export default {
       selectedIndicatorIndex.value = index;
     };
 
-    const scrollBasedOnIndicator = (indincatorIndex) => {
-      reviewsRef.value[indincatorIndex].scrollIntoView({ behavior: "smooth" });
+    const scrollBasedOnIndicator = (indicatorIndex) => {
+      reviewsRef.value[indicatorIndex].scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "start",
+      });
     };
 
     onMounted(() => {

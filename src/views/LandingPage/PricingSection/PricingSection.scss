@@ -1,0 +1,121 @@
+.pkmn-pricing-section {
+  position: relative;
+
+  width: 100%;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 70%;
+    height: 100%;
+
+    background: var(--pkmn-light-background);
+
+    /** MOBILE */
+    @media (max-width: 767px) {
+      background: unset;
+    }
+  }
+
+  &__wrapper {
+    position: relative;
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+    max-width: var(--page-container-max-content-width);
+    margin: 0 auto;
+    z-index: 1;
+
+    /** TABLET */
+    @media (min-width: 768px) and (max-width: 1439px) {
+      padding-left: 64px;
+      padding-right: 64px;
+    }
+
+    /** MOBILE */
+    @media (max-width: 767px) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+
+  &__content-wrapper {
+    padding: 80px 0;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /** TABLET */
+    @media (min-width: 768px) and (max-width: 1439px) {
+    }
+
+    /** MOBILE */
+    @media (max-width: 767px) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__info {
+    max-width: 414px;
+
+    /** TABLET */
+    @media (min-width: 768px) and (max-width: 1439px) {
+      max-width: 257px;
+    }
+
+    /** MOBILE */
+    @media (max-width: 767px) {
+      max-width: 100%;
+      margin-top: 24px;
+    }
+
+    &--title {
+      color: var(--pkmn-text-color);
+      font-weight: var(--pkmn-h1-font-weight);
+
+      font-size: var(--pkmn-h1-font-size-lg);
+      line-height: var(--pkmn-h1-line-height-lg);
+
+      margin-bottom: 8px;
+
+      /** TABLET */
+      @media (min-width: 768px) and (max-width: 1439px) {
+        font-size: var(--pkmn-h1-font-size-md);
+        line-height: var(--pkmn-h1-line-height-md);
+      }
+
+      /** MOBILE */
+      @media (max-width: 767px) {
+        font-size: 26px;
+        line-height: 32px;
+      }
+    }
+
+    &--desc {
+      color: var(--pkmn-text-color);
+      font-weight: var(--pkmn-body-text-font-weight);
+
+      font-size: var(--pkmn-body-text-font-size);
+      line-height: var(--pkmn-body-text-line-height);
+
+      /** TABLET */
+      @media (min-width: 768px) and (max-width: 1439px) {
+        font-size: var(--pkmn-small-text-font-size);
+        line-height: var(--pkmn-small-text-line-height);
+      }
+
+      /** MOBILE */
+      @media (max-width: 767px) {
+        font-size: var(--pkmn-small-text-font-size);
+        line-height: var(--pkmn-small-text-line-height);
+      }
+    }
+  }
+
+  &__img {
+    flex-basis: 50%;
+  }
+}

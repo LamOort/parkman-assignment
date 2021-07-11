@@ -8,6 +8,10 @@
 
       <UsageSection />
       <TestimonialSection />
+
+      <PricingSection />
+      <DemoSection />
+      <ContactSection />
     </div>
   </main>
 </template>
@@ -19,6 +23,9 @@ import MobileDownload from "./MobileDownload";
 import HeroSection from "./HeroSection";
 import UsageSection from "./UsageSection";
 import TestimonialSection from "./TestimonialSection";
+import PricingSection from "./PricingSection";
+import DemoSection from "./DemoSection";
+import ContactSection from "./ContactSection";
 
 export default {
   components: {
@@ -28,6 +35,9 @@ export default {
     MobileDownload,
     UsageSection,
     TestimonialSection,
+    PricingSection,
+    DemoSection,
+    ContactSection,
   },
 };
 </script>
