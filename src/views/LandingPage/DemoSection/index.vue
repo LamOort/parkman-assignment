@@ -74,13 +74,13 @@ export default {
 <style lang="scss" scoped>
 @import "./DemoSection.scss";
 
-::v-deep .modal-container {
+:deep .modal-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-::v-deep .modal-content {
+:deep .modal-content {
   width: 70%;
 }
 

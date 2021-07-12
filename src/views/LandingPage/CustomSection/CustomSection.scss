@@ -1,0 +1,102 @@
+.pkmn-custom-section {
+  width: 100%;
+
+  &__wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+
+    z-index: 1;
+
+    /** MOBILE */
+    @media (max-width: 767px) {
+      flex-direction: column-reverse;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__info {
+    flex: 1 0 35%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    text-align: right;
+
+    margin-right: 80px;
+
+    @media only screen and (min-width: 1191px) {
+      margin-right: calc(
+        (100vw - var(--page-container-max-content-width)) / 2 + 80px
+      );
+    }
+
+    /** TABLET */
+    @media (min-width: 768px) and (max-width: 1439px) {
+      margin-right: 64px;
+    }
+
+    /** MOBILE */
+    @media (max-width: 767px) {
+      margin-right: 0;
+      margin-left: 16px;
+      padding-right: 16px;
+      text-align: left;
+      align-items: flex-start;
+    }
+
+    &--title {
+      color: var(--pkmn-text-color);
+      font-weight: var(--pkmn-h1-font-weight);
+
+      font-size: var(--pkmn-h1-font-size-lg);
+      line-height: var(--pkmn-h1-line-height-lg);
+
+      max-width: 414px;
+      margin-bottom: 40px;
+
+      /** TABLET */
+      @media (min-width: 768px) and (max-width: 1439px) {
+        font-size: var(--pkmn-h1-font-size-md);
+        line-height: var(--pkmn-h1-line-height-md);
+
+        max-width: 257px;
+      }
+
+      /** MOBILE */
+      @media (max-width: 767px) {
+        font-size: 22px;
+        line-height: 28px;
+
+        max-width: 100%;
+        margin-bottom: 8px;
+      }
+    }
+
+    &--desc {
+      color: var(--pkmn-text-color);
+      font-weight: var(--pkmn-body-text-font-weight);
+
+      font-size: var(--pkmn-body-text-font-size);
+      line-height: var(--pkmn-body-text-line-height);
+
+      /** TABLET */
+      @media (min-width: 768px) and (max-width: 1439px) {
+        font-size: var(--pkmn-small-text-font-size);
+        line-height: var(--pkmn-small-text-line-height);
+      }
+
+      /** MOBILE */
+      @media (max-width: 767px) {
+        font-size: var(--pkmn-small-text-font-size);
+        line-height: var(--pkmn-small-text-line-height);
+
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

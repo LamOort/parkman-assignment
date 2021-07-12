@@ -11,8 +11,9 @@
 
       <PricingSection />
       <DemoSection />
-      <ContactSection />
+      <CustomSection />
 
+      <ContactSection />
       <Footer />
     </div>
   </main>
@@ -29,6 +30,7 @@ import UsageSection from "./UsageSection";
 import TestimonialSection from "./TestimonialSection";
 import PricingSection from "./PricingSection";
 import DemoSection from "./DemoSection";
+import CustomSection from "./CustomSection";
 import ContactSection from "./ContactSection";
 
 export default {
@@ -41,6 +43,7 @@ export default {
     TestimonialSection,
     PricingSection,
     DemoSection,
+    CustomSection,
     ContactSection,
     Footer,
   },
