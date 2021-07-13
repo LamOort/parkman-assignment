@@ -54,6 +54,7 @@ Contains all global styles and css variables according to the design system.
 
 
 __views__
+
 Contains wrapper component acts as page layout for main views.
 
 ## Responsiveness and cross-browser compability
