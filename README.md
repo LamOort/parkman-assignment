@@ -65,7 +65,7 @@ This app supports all devices and is compatible with Chrome, Safari, Firefox, an
 ![IMG_E349853F4A9C-1](https://user-images.githubusercontent.com/26543329/125452453-ae4fa2ef-ccc0-40a6-86d3-a3d134ad51ec.jpeg)
 
 ## Development process related explanation
-#### 1. Separating styling from UI file 
+### 1. Separating styling from UI file 
 - In VueJS, by nature a ``.vue`` file will contain 3 main parts of ``template``, ``script`` and ``style``, all css style could be written within ``style`` tag. However, this practice might unnecessarily lengthen the file, possibly causing difficulties for maintainance or adding adjustments in the long run.
 - Adopting best practice from React, a component will have a structure like this:
 
