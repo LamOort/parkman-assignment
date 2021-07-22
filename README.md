@@ -1,6 +1,6 @@
 # ParkMan Assignment
 ## Project overview
-An Front-end Developer assignment assigned by ParkMan. A pixel-perfect implementation inspired by ParkMan's "How it works" webpage.
+A Front-end Developer assignment assigned by ParkMan. A pixel-perfect implementation inspired by ParkMan's "How it works" webpage.
 
 
 https://user-images.githubusercontent.com/26543329/125447444-420d0e9a-2c1f-48be-9a01-91c52c0d8129.mov
