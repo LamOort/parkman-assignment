@@ -25,7 +25,8 @@ export default {
   components: {},
   setup() {
     onMounted(() => {
-      mapboxgl.accessToken = process.env.VUE_APP_MAPBOX_KEY;
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoidGhlb2Rkb25lMDgxMSIsImEiOiJja3IwbTVqcGExdG9pMnZxcDgzejRhZGFkIn0.9TqRySdyey7evVlTLWllbA";
       const map = new mapboxgl.Map({
         container: "map",
         style: "mapbox://styles/theoddone0811/ckr0ox3vf1vx917pkunmee4kq",
