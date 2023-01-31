@@ -121,5 +121,3 @@ Following the requirements, the author came up with an idea of integrating a map
 - The map is fully interactive.
 
 ![Screenshot 2021-07-13 at 17 43 57](https://user-images.githubusercontent.com/26543329/125472564-116d8edd-68c4-4547-888c-69502c6161ab.png)
-
-#### That's it for now, thank you :D
