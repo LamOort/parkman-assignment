@@ -3,7 +3,7 @@
     <div class="pkmn-download-mobile__wrapper">
       <div class="pkmn-download-mobile__info">
         <div class="pkmn-download-mobile__info--logo">
-          <img src="https://www.parkman.io/img/logo-parkman-app.8123fa5e.svg" />
+          <img :src="require('../../../assets/parkman_logo.webp')" />
         </div>
 
         <div class="pkmn-download-mobile__info--wrapper">
@@ -77,6 +77,11 @@ export default {
 
     &--logo {
       margin-right: 8px;
+     
+      img {
+        width: 55px;
+        height: 40px;
+      }
     }
 
     &--title {

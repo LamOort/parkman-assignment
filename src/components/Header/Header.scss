@@ -20,6 +20,13 @@
     height: 56px;
   }
 
+  &__burger-menu {
+    img {
+      width: 24px;
+      aspect-ratio: 1;
+    }
+  }
+
   &__wrapper {
     position: relative;
 

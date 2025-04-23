@@ -73,7 +73,7 @@
         </div>
 
         <div class="pkmn-header__burger-menu hidden-desktop">
-          <img src="https://www.parkman.io/img/burger.5cad6df7.svg" />
+          <img :src="require('../../assets/burger-menu.svg')" />
         </div>
       </div>
     </div>
