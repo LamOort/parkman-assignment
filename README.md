@@ -98,7 +98,7 @@ __Traditional approach:__
     }
 ```
 
-__Micro-Frontend approach:__
+__Modular styling approach:__
 ```
 .block {
      //styling here
