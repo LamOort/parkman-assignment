@@ -116,7 +116,7 @@ __Modular styling approach:__
 
 ### 3. Custom section implementation
 
-Following the requirements, the author came up with an idea of integrating a map which displays ParkMan's HQ location and a funny message will prompt up each time a user click on the marker.
+Following the requirements, the author came up with an idea of integrating a map which displays ParkMan's HQ location and a message will prompt up when the marker is clicked.
 - Using Mapbox GL and Mapbox API.
 - The map is fully interactive.
 
