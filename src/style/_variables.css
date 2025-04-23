@@ -62,11 +62,11 @@
   --pkmn-body-text-font-weight: var(--pkmn-font-weight-regular);
 
   --pkmn-body-text-font-size: calc(var(--pkmn-font-size-base) * 1.8);
-  --pkmn-body-text-line-height: calc(var(--pkmn-font-size-base) 2.7);
+  --pkmn-body-text-line-height: calc(var(--pkmn-font-size-base) * 2.7);
 
   /* Small text */
   --pkmn-small-text-font-weight: var(--pkmn-font-weight-regular);
 
   --pkmn-small-text-font-size: calc(var(--pkmn-font-size-base) * 1.6);
-  --pkmn-small-text-line-height: calc(var(--pkmn-font-size-base) 2.2);
+  --pkmn-small-text-line-height: calc(var(--pkmn-font-size-base) * 2.2);
 }
